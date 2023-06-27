@@ -31,7 +31,7 @@ a:hover {
   color: #eaf6f6;
 }
 hr {
-  border: dotted #eaf6f6 6px;
+  border: dotted #d8d8d8 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -39,35 +39,12 @@ hr {
 p {
   line-height: 2;
 }
+
+/* HEADER */
 .top-container {
   background: #eaf6f6;
   position: relative;
   padding-top: 100px;
-}
-.middle-container {
-  margin: 100px 0;
-}
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 50px 0 20px;
-}
-.contact-me-msg {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-.intro {
-  width: 50%;
-  margin: auto;
-}
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-}
-.copyright {
-  color: #eaf6f6;
-  font-size: 0.75rem;
-  padding: 20px 0;
 }
 .pro {
   text-decoration: underline;
@@ -82,18 +59,35 @@ p {
   left: 250px;
   bottom: 300px;
 }
-.programming {
+
+/* MID-SECTION */
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.frontend {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
-.drawing {
+.backend {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
-.madara {
-  border-radius: 100%;
+.contact-me-msg {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 .btn {
   background: #11cdd4;
@@ -119,4 +113,59 @@ p {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+/* FOOTER */
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  hr {
+    border: dotted #d8d8d8 7px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+  }
+
+  .mountain {
+    height: 300px;
+    margin-top: 30px;
+  }
+  .top-cloud {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 270px;
+  }
+
+  .intro {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .skill-row {
+    width: 80%;
+    margin: 100px auto;
+    text-align: left;
+  }
+  .skill-row.second {
+    width: 80%;
+    margin: 100px auto;
+    text-align: left;
+  }
+  .contact-me-msg {
+    width: 70%;
+    margin: 40px auto 60px;
+  }
 }
