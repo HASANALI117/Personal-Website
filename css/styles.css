@@ -127,45 +127,67 @@ p {
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 30px;
+  }
   hr {
     border: dotted #d8d8d8 7px;
     border-bottom: none;
-    width: 4%;
+    width: 9%;
     margin: 80px auto;
   }
 
   .mountain {
-    height: 300px;
-    margin-top: 30px;
+    height: 200px;
+    width: 325px;
+    margin-top: 10px;
   }
   .top-cloud {
+    height: 40px;
+    width: 100px;
     position: absolute;
     left: 60px;
     top: 50px;
   }
   .bottom-cloud {
+    height: 40px;
+    width: 100px;
     position: absolute;
-    left: 350px;
-    bottom: 270px;
+    left: 230px;
+    bottom: 180px;
   }
 
   .intro {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
   }
   .skill-row {
-    width: 80%;
+    width: 85%;
     margin: 100px auto;
-    text-align: left;
+    text-align: justify;
   }
   .skill-row.second {
-    width: 80%;
+    width: 85%;
     margin: 100px auto;
-    text-align: left;
+    text-align: justify;
+  }
+  .frontend {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+  }
+  .backend {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
   }
   .contact-me-msg {
-    width: 70%;
+    text-align: justify;
+    width: 85%;
     margin: 40px auto 60px;
   }
 }
